@@ -4,7 +4,14 @@ A web application to search your current or potential home for a history of any 
 
 The AbodeWell Team: Sara Gilford, Ginny W. Martin, Michael Walker, & Brandi M. Ford
 
+/
 ![alt tag](https://raw.githubusercontent.com/lilpaw/abodewell/master/Screenshot%202016-05-25%2000.14.52.png)
+
+/buildings/XXXX
 ![alt tag](https://raw.githubusercontent.com/lilpaw/abodewell/master/Screenshot%202016-05-25%2000.21.39.png)
+
+Reporting a Lease Increase
 ![alt tag](https://raw.githubusercontent.com/lilpaw/abodewell/master/Screenshot%202016-05-25%2000.21.55.png)
+
+Reporting an Eviction Notice
 ![alt tag](https://raw.githubusercontent.com/lilpaw/abodewell/master/Screenshot%202016-05-25%2000.22.13.png)
