@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AbodeWell</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+  <script scr="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="stylesheets/custom.css">
+</head>
+<body>
+
+<nav class="navbar debug big-mama-nav">
+  <div class="container-fluid">
+  <!--  <div class="navbar-header">
+       <%= link_to "AbodeWell", root_path, class: "navbar-brand" %>
+      <%= link_to "About", about_index_path, class: "navbar-brand" %>
+      <%= link_to "Learn", learn_index_path, class: "navbar-brand" %>
+
+    </div>
+  </div> -->
+
+  <div class="navbar-header">
+
+      <a href="/" class="navbar-brand"><span class="glyphicon glyphicon-home nav-glyph" aria-hidden="true"></span><p id="brand-text">AbodeWell<p></a>
+
+  </div>
+  <div class="about-learn-links">
+    <a href="/about" class="navbar-brand other-nav">About</a>
+    <a href="/learn" class="navbar-brand other-nav">Learn</a>
+  </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</nav>
+
+
+<%= yield %>
+
+</body>
+</html>
+
+
+
+
+
